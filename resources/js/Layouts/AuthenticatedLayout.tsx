@@ -86,8 +86,8 @@ export default function Authenticated({
                                 {/*</Dropdown>*/}
                                 <DropdownMenu>
                                     <DropdownMenuTrigger>
-                                        <div className="ml-2 flex items-center justify-center text-sm">
-                                            {user.name} <ChevronDown className="h-4 w-4" />
+                                        <div className="flex items-center justify-center text-sm">
+                                            {user.name} <ChevronDown className="ml-1 h-3 w-3" />
                                         </div>
                                     </DropdownMenuTrigger>
                                     <DropdownMenuContent>

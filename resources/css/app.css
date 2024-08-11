@@ -60,12 +60,6 @@
 }
 
 
-/* fixes the layout shift caused by the scrollbar*/
-html {
-    overflow-x: hidden;
-    margin-right: calc(-1 * (100vw - 100%));
-}
-
 @layer base {
     * {
         @apply border-border;

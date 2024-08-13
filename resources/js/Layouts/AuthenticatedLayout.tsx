@@ -27,7 +27,7 @@ export default function Authenticated({
     }, []);
 
     return (
-        <div className="min-h-screen w-full bg-gray-100 dark:bg-gray-900">
+        <div className="flex min-h-screen w-full flex-col bg-gray-100 dark:bg-gray-900">
             <nav className="border-b border-gray-100 bg-white dark:border-gray-700 dark:bg-gray-800">
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 justify-between">
@@ -166,7 +166,7 @@ export default function Authenticated({
                     </div>
                 </div>
             </nav>
-            <main>{children}</main>
+            <main className="flex-1">{children}</main>
         </div>
     );
 }
